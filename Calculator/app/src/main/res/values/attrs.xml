@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <attr name="themeDisplayBg" format="color" />
+    <attr name="themeKeypadBg" format="color" />
+    <attr name="themeBottomBg" format="color" />
+    
+    <!-- Buttons Backgrounds -->
+    <attr name="themeBtnNumberBg" format="color" />
+    <attr name="themeBtnOperatorBg" format="color" /> <!-- AC, <, %, / -->
+    <attr name="themeBtnMathOpBg" format="color" /> <!-- *, -, + -->
+    <attr name="themeBtnEqualBg" format="color" />
+    
+    <!-- Status Icon/Text Colors -->
+    <attr name="themeTextDisplay" format="color" />
+    <attr name="themeIconSettings" format="color" />
+    
+    <!-- Buttons Texts Colored -->
+    <attr name="themeTextBtnNumber" format="color" />
+    <attr name="themeTextBtnOperator" format="color" />
+    <attr name="themeTextBtnMathOp" format="color" />
+    <attr name="themeTextBtnEqual" format="color" />
+</resources>

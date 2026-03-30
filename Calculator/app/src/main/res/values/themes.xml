@@ -1,0 +1,118 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Common settings -->
+        <item name="android:statusBarColor">?attr/themeDisplayBg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+
+    <!-- 1. Black & White (Light) -->
+    <style name="Theme.Calculator.Light" parent="Base.Theme.Calculator">
+        <item name="themeDisplayBg">@color/light_display_bg</item>
+        <item name="themeKeypadBg">@color/light_keypad_bg</item>
+        <item name="themeBottomBg">@color/light_keypad_bg</item>
+        <item name="themeBtnNumberBg">@color/light_btn_num_bg</item>
+        <item name="themeBtnOperatorBg">@color/light_btn_op_bg</item>
+        <item name="themeBtnMathOpBg">@color/light_btn_op_bg</item>
+        <item name="themeBtnEqualBg">@color/light_btn_eq_bg</item>
+        <item name="themeTextDisplay">@color/light_text_display</item>
+        <item name="themeIconSettings">@color/light_text_display</item>
+        <item name="themeTextBtnNumber">@color/light_text_btn_num</item>
+        <item name="themeTextBtnOperator">@color/light_text_btn_num</item>
+        <item name="themeTextBtnMathOp">@color/light_text_btn_num</item>
+        <item name="themeTextBtnEqual">@color/light_text_btn_eq</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- 2. Amber -->
+    <style name="Theme.Calculator.Amber" parent="Base.Theme.Calculator">
+        <item name="themeDisplayBg">@color/amber_display_bg</item>
+        <item name="themeKeypadBg">@color/amber_keypad_bg</item>
+        <item name="themeBottomBg">@color/amber_keypad_bg</item>
+        <item name="themeBtnNumberBg">@color/amber_btn_num_bg</item>
+        <item name="themeBtnOperatorBg">@color/amber_btn_op_bg</item>
+        <item name="themeBtnMathOpBg">@color/amber_btn_op_bg</item>
+        <item name="themeBtnEqualBg">@color/amber_btn_eq_bg</item>
+        <item name="themeTextDisplay">@color/amber_text_display</item>
+        <item name="themeIconSettings">@color/amber_text_display</item>
+        <item name="themeTextBtnNumber">@color/amber_text_display</item>
+        <item name="themeTextBtnOperator">@color/amber_text_display</item>
+        <item name="themeTextBtnMathOp">@color/amber_text_display</item>
+        <item name="themeTextBtnEqual">@color/amber_text_display</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- 3. Blue Gray -->
+    <style name="Theme.Calculator.BlueGray" parent="Base.Theme.Calculator">
+        <item name="themeDisplayBg">@color/bluegray_display_bg</item>
+        <item name="themeKeypadBg">@color/bluegray_keypad_bg</item>
+        <item name="themeBottomBg">@color/bluegray_keypad_bg</item>
+        <item name="themeBtnNumberBg">@color/bluegray_btn_num_bg</item>
+        <item name="themeBtnOperatorBg">@color/bluegray_btn_op_bg</item>
+        <item name="themeBtnMathOpBg">@color/bluegray_btn_op_bg</item>
+        <item name="themeBtnEqualBg">@color/bluegray_btn_eq_bg</item>
+        <item name="themeTextDisplay">@color/bluegray_text_display</item>
+        <item name="themeIconSettings">@color/bluegray_text_display</item>
+        <item name="themeTextBtnNumber">@color/bluegray_text_btn_num</item>
+        <item name="themeTextBtnOperator">@color/bluegray_text_btn_num</item>
+        <item name="themeTextBtnMathOp">@color/bluegray_text_btn_num</item>
+        <item name="themeTextBtnEqual">@color/bluegray_text_display</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- 4. Cyan -->
+    <style name="Theme.Calculator.Cyan" parent="Base.Theme.Calculator">
+        <item name="themeDisplayBg">@color/cyan_display_bg</item>
+        <item name="themeKeypadBg">@color/cyan_keypad_bg</item>
+        <item name="themeBottomBg">@color/cyan_keypad_bg</item>
+        <item name="themeBtnNumberBg">@color/cyan_btn_num_bg</item>
+        <item name="themeBtnOperatorBg">@color/cyan_btn_op_bg</item>
+        <item name="themeBtnMathOpBg">@color/cyan_btn_op_bg</item>
+        <item name="themeBtnEqualBg">@color/cyan_btn_op_bg</item>
+        <item name="themeTextDisplay">@color/cyan_text_display</item>
+        <item name="themeIconSettings">@color/cyan_text_display</item>
+        <item name="themeTextBtnNumber">@color/cyan_text_btn_num</item>
+        <item name="themeTextBtnOperator">@color/cyan_text_btn_num</item>
+        <item name="themeTextBtnMathOp">@color/cyan_text_btn_num</item>
+        <item name="themeTextBtnEqual">@color/cyan_text_btn_num</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- 5. Green -->
+    <style name="Theme.Calculator.Green" parent="Base.Theme.Calculator">
+        <item name="themeDisplayBg">@color/green_display_bg</item>
+        <item name="themeKeypadBg">@color/green_keypad_bg</item>
+        <item name="themeBottomBg">@color/green_keypad_bg</item>
+        <item name="themeBtnNumberBg">@color/green_btn_num_bg</item>
+        <item name="themeBtnOperatorBg">@color/green_btn_op_bg</item>
+        <item name="themeBtnMathOpBg">@color/green_btn_op_bg</item>
+        <item name="themeBtnEqualBg">@color/green_btn_op_bg</item>
+        <item name="themeTextDisplay">@color/green_text_display</item>
+        <item name="themeIconSettings">@color/green_text_display</item>
+        <item name="themeTextBtnNumber">@color/green_text_btn_num</item>
+        <item name="themeTextBtnOperator">@color/green_text_btn_num</item>
+        <item name="themeTextBtnMathOp">@color/green_text_btn_num</item>
+        <item name="themeTextBtnEqual">@color/green_text_btn_num</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- 6. Dark (Gray) -->
+    <style name="Theme.Calculator.Dark" parent="Base.Theme.Calculator">
+        <item name="themeDisplayBg">@color/dark_display_bg</item>
+        <item name="themeKeypadBg">@color/dark_keypad_bg</item>
+        <item name="themeBottomBg">@color/dark_keypad_bg</item>
+        <item name="themeBtnNumberBg">@color/dark_btn_num_bg</item>
+        <item name="themeBtnOperatorBg">@color/dark_btn_op_bg</item>
+        <item name="themeBtnMathOpBg">@color/dark_btn_op_bg</item>
+        <item name="themeBtnEqualBg">@color/dark_btn_eq_bg</item>
+        <item name="themeTextDisplay">@color/dark_text_display</item>
+        <item name="themeIconSettings">@color/dark_text_display</item>
+        <item name="themeTextBtnNumber">@color/dark_text_btn_num</item>
+        <item name="themeTextBtnOperator">@color/dark_text_btn_num</item>
+        <item name="themeTextBtnMathOp">@color/dark_text_btn_num</item>
+        <item name="themeTextBtnEqual">@color/dark_text_display</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

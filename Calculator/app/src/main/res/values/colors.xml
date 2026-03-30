@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Theme 1: Light (Black & White) -->
+    <color name="light_display_bg">#FFFFFF</color>
+    <color name="light_keypad_bg">#F2F2F2</color>
+    <color name="light_btn_num_bg">#E0E0E0</color>
+    <color name="light_btn_op_bg">#BDBDBD</color>
+    <color name="light_btn_eq_bg">#757575</color>
+    <color name="light_text_display">#000000</color>
+    <color name="light_text_btn_num">#000000</color>
+    <color name="light_text_btn_eq">#FFFFFF</color>
+
+    <!-- Theme 2: Amber -->
+    <color name="amber_display_bg">#BCA396</color>
+    <color name="amber_keypad_bg">#C9C1B8</color>
+    <color name="amber_btn_num_bg">#EAE0D5</color>
+    <color name="amber_btn_op_bg">#9D8379</color>
+    <color name="amber_btn_eq_bg">#E39B78</color>
+    <color name="amber_text_display">#3D302C</color>
+
+    <!-- Theme 3: Blue Gray -->
+    <color name="bluegray_display_bg">#1C2228</color>
+    <color name="bluegray_keypad_bg">#2B3B4A</color>
+    <color name="bluegray_btn_num_bg">#607484</color>
+    <color name="bluegray_btn_op_bg">#3B4C5A</color>
+    <color name="bluegray_btn_eq_bg">#233240</color>
+    <color name="bluegray_text_display">#FFFFFF</color>
+    <color name="bluegray_text_btn_num">#1C2228</color>
+
+    <!-- Theme 4: Cyan -->
+    <color name="cyan_display_bg">#0A6A76</color>
+    <color name="cyan_keypad_bg">#048796</color>
+    <color name="cyan_btn_num_bg">#78E0E9</color>
+    <color name="cyan_btn_op_bg">#00DBEB</color>
+    <color name="cyan_text_display">#FFFFFF</color>
+    <color name="cyan_text_btn_num">#084047</color>
+
+    <!-- Theme 5: Green -->
+    <color name="green_display_bg">#0D6144</color>
+    <color name="green_keypad_bg">#0A8255</color>
+    <color name="green_btn_num_bg">#26DA88</color>
+    <color name="green_btn_op_bg">#05AE6B</color>
+    <color name="green_text_display">#FFFFFF</color>
+    <color name="green_text_btn_num">#063D25</color>
+
+    <!-- Theme 6: Dark (Gray) -->
+    <color name="dark_display_bg">#13151D</color>
+    <color name="dark_keypad_bg">#212833</color>
+    <color name="dark_btn_num_bg">#485361</color>
+    <color name="dark_btn_op_bg">#344252</color>
+    <color name="dark_btn_eq_bg">#2A3644</color>
+    <color name="dark_text_display">#FFFFFF</color>
+    <color name="dark_text_btn_num">#11161D</color>
+
+</resources>
