@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/blogo">
+    </ImageView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="60dp"
+        android:text="Create account"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        >
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="135dp"
+        android:text="Username"
+        android:textAlignment="textStart"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        >
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_button_outline"
+        android:hint="Your username"
+        android:paddingLeft="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/text_hint_gray"
+        android:textSize="16sp">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="135dp"
+        android:text="Email"
+        android:textAlignment="textStart"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        >
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_button_outline"
+        android:hint="Your email"
+        android:paddingLeft="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/text_hint_gray"
+        android:textSize="16sp">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="135dp"
+        android:text="Password"
+        android:textAlignment="textStart"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        >
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_button_outline"
+        android:hint="Your password"
+        android:paddingLeft="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/text_hint_gray"
+        android:textSize="16sp">
+    </com.google.android.material.textfield.TextInputEditText>
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I accept the terms and privacy policy"
+        android:textColor="@color/black"
+        />
+
+    <android.widget.Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_button_primary"
+        android:text="Log in"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textAllCaps="false" />
+
+    <android.widget.Button
+        android:id="@+id/btnLoginCreateAcc"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+        android:text="Already have account? Login"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_green"
+        android:layout_marginTop="100dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
